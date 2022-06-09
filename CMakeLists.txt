@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(CBcalc VERSION 0.1 LANGUAGES CXX)
+project(CGcalc VERSION 0.1 LANGUAGES CXX)
 
 # I am top-level project.
 # Make the root module directory visible to CMake.
@@ -25,7 +25,7 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/src/*.h)
 set(PROJECT_SOURCES main.cpp ${sources} ${headers})
 
 
-add_executable(CBcalc ${PROJECT_SOURCES} )
+add_executable(CGcalc ${PROJECT_SOURCES} )
 
 #Ignore these for now
 
