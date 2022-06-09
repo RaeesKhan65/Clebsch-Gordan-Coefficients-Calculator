@@ -15,7 +15,7 @@ Instructions:
 
 (vi) Then Type: make
 
-(vii) Run the executable by ./CBcalc j m j_1 m_1 j_2 m_2
+(vii) Run the executable by ./CGcalc j m j_1 m_1 j_2 m_2
 
 
 
