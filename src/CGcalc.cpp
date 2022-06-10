@@ -2,12 +2,7 @@
 #include <iostream> 
 
 
-CGcalc::CGcalc(){
-}
-
-CGcalc::~CGcalc(){}
-
-void CGcalc::get_inputs(int j, int m,
+CGcalc::CGcalc(int j, int m,
 int j1,int m1,int j2,int m2)
 {
 
@@ -20,6 +15,17 @@ m2 = m2;
 
 std::cout << j << m << j1 << m1 << j2 << m2 << std::endl;
 }
+
+CGcalc::~CGcalc(){}
+
+
+
+
+
+
+
+
+
 
 
 

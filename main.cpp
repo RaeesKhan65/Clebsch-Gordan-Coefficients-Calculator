@@ -12,8 +12,7 @@ int main(int argc, char** argv)
    int j2 = atoi(argv[5]);
    int m2 = atoi(argv[6]);
 
-CGcalc cg = CGcalc();
-cg.get_inputs(j,m,j1,m1,j2,m2);
+CGcalc cg = CGcalc(j,m,j1,m1,j2,m2);
 
     return 0;
 }
