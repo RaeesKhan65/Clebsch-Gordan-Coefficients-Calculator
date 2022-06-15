@@ -5,20 +5,13 @@
 class CGcalc{
 
 public:
-    CGcalc(int j, int m,int j_1,int m_1,int j_2,int m_2);
+    CGcalc();
    ~CGcalc();
 
 
-    void  wigner_eckart_check(int j, int m,int j1,int m1,int j2,int m2);
-
-//Variables
-   int j;
-   int m;
-   int j1;
-   int m1;
-   int j2;
-   int m2;
-   double answer;
+    double answer;
+    bool  wigner_eckart_check(int j, int m,int j1,int m1,int j2,int m2);
+    double get_answer(int j, int m,int j1,int m1,int j2,int m2);
 
 
 
