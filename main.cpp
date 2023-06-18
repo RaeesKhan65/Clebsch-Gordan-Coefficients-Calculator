@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include "src/CGcalc.h"
+#include "CGcalc.h"
 
 int main(int argc, char** argv)
 {
